@@ -5,7 +5,6 @@ const Intern = require('./lib/Intern');
 const generateHtml = require('./generateHtml');
 const fs = require('fs');
 const path = require('path');
-const { DefaultSerializer } = require('v8');
 const teamMembers = []
 
 const promptMain = () => {
@@ -29,4 +28,6 @@ const promptMain = () => {
                 finishTeam();
         }
     });
+
+
 }
